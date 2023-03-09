@@ -1,0 +1,58 @@
+.table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table td,.table th{
+    border: 1px solid gray;
+}
+.table th{
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+}
+
+
+.table tr:nth-child(even){background-color:#f2f2f2;}
+
+.GoTrashcan {
+    background-color: red;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+.BiShow {
+    background-color: #04AA6D;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+.FiEdit {
+    background-color: blue;
+    border-style: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+.AddNewUser{
+    background-color:blue;
+    color: #f2f2f2;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0 30px;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.GoTrashcan:hover,.FiEdit:hover,
+.BiShow:hover,.AddNewUser:hover{
+    background-color:gray;
+    cursor: pointer;
+}

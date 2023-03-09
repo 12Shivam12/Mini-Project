@@ -1,0 +1,17 @@
+.ParentDiv{
+    background-color: #04AA6D;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0px 25px;
+}
+a{
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.user:hover,.help:hover,.contact:hover{
+    color: red;
+}

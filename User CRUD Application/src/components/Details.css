@@ -1,0 +1,18 @@
+.ParentDetailsComponent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+    background-color: #04AA6D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ParentDetailsComponent img{
+    border-radius: 5px;
+    border: 1px solid white;
+}
